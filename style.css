@@ -79,18 +79,27 @@ body {
       height: 80px;
     }
   }
-  /* .footer {
-    text-align: center;
-    font-size: 13px;
-    color: #888;
-    margin-top: 20px;
-    transition: color 0.3s ease;
-  }
-  
-  .footer:hover {
-    color: #333;
-  } */
-  
+  /* Full height layout container */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer stays at the bottom */
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.footer:hover {
+  color: #333;
+}
     
   
   
